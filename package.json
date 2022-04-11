@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "mix"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.43",
+        "vue-loader": "^16.8.3"
+    },
+    "dependencies": {
+        "pinia": "^2.0.13",
+        "vue": "^3.2.31"
+    }
+}
