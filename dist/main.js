@@ -17520,7 +17520,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var pinia__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! pinia */ "./node_modules/pinia/dist/pinia.esm-browser.js");
 
-(0,pinia__WEBPACK_IMPORTED_MODULE_0__.setMapStoreSuffix)('_store');
+setMapStoreSuffix('_store');
 var pinia = (0,pinia__WEBPACK_IMPORTED_MODULE_0__.createPinia)();
 
 /***/ }),
@@ -20082,11 +20082,14 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App */ "./src/App.vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-/* harmony import */ var _pinia__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pinia */ "./src/pinia.js");
+/* harmony import */ var pinia__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! pinia */ "./node_modules/pinia/dist/pinia.esm-browser.js");
+/* harmony import */ var _pinia__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pinia */ "./src/pinia.js");
 
 
 
-(0,vue__WEBPACK_IMPORTED_MODULE_1__.createApp)(_App__WEBPACK_IMPORTED_MODULE_0__["default"]).use(_pinia__WEBPACK_IMPORTED_MODULE_2__.pinia).mount('#app');
+(0,pinia__WEBPACK_IMPORTED_MODULE_2__.setMapStoreSuffix)('_store');
+
+(0,vue__WEBPACK_IMPORTED_MODULE_1__.createApp)(_App__WEBPACK_IMPORTED_MODULE_0__["default"]).use(_pinia__WEBPACK_IMPORTED_MODULE_3__.pinia).mount('#app');
 })();
 
 /******/ })()

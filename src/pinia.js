@@ -1,4 +1,4 @@
-import { createPinia, setMapStoreSuffix } from 'pinia'
+import { createPinia } from 'pinia'
 
 setMapStoreSuffix('_store')
 
