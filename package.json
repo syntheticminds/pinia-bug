@@ -1,7 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "build": "mix"
+        "build": "mix",
+        "watch": "mix watch"
     },
     "devDependencies": {
         "laravel-mix": "^6.0.43",
